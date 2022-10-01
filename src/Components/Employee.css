@@ -1,0 +1,109 @@
+.Container{
+    width: 99%;
+    margin: auto;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    /* height: auto; */
+}
+/* Start Form CSS*/
+.Employee-form{
+    border: 1px solid teal;
+    width: 25%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px gray;
+    height: 550px;
+}
+.Employee-form form input[type="text"], select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 13px;
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 25px;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    background-color: #db3545;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* End Form CSS*/
+/*Start Tabel CSS */
+.Table{
+    width: 70%;
+}
+.Table .Search-Area{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Table .Search-Area input{
+    padding: 10px;
+    outline: none;
+}
+.Table .Search-Area button{
+    padding: 10px 20px;
+}
+.Search{
+    margin-left: -5px;
+    background-color: black;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+}
+.ass{
+    margin-left: 8px;
+    margin-right: 5px;
+    border: none;
+    padding: 11px 0;
+    background-color: aqua;
+    cursor: pointer;
+}
+.dss{
+    border: none;
+    padding: 11px 0;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+table th{
+    background-color: #2b609d;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #db3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.tablet{
+    border: 1px solid red;
+}
+/*End Tabel CSS */
